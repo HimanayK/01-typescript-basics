@@ -1,0 +1,16 @@
+{
+  "name": "06-typescript-udemy-3",
+  "version": "1.0.0",
+  "description": "- Open Terminal\r   - **mkdir fileName**  // create folder\r   - **cd fileName**     // change directory\r   - **npm init -y**     // initialize a new package.json \r   - **npm i typescript -D**    //  install the TypeScript compiler with npm TypeScript and save it as a dev dependency\r   - **npx tsc --init --rootDir src --outDir lib --sourceMap --declaration --declarationMap**    //  initialize config.json; enable sourceMap to debug the source code; enable declarations so that the compiler generates type definitions which can be used by our TypeScript consumers; enable declarationMap which allows our TypeScript consumers to navigate from the type definitions to the TypeScript source code",
+  "main": "lib",
+  "types": "lib",
+  "scripts": {
+   "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}

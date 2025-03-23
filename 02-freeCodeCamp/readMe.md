@@ -16,7 +16,8 @@
 - Create the folde in vscode, create file example intro.ts
 - Open Terminal 
   - tsc intro.ts -> it creates the intro.js
-
+  - tsc intro.ts | node intro.js
+  - npx tsc --watch
 
   ### Types:
 | Type       | Category   | Example |

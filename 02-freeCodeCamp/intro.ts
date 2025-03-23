@@ -1,4 +1,4 @@
-let user = { name: "Himani", age: 10 }
+var userr = { name: "Himani", age: 10 }
 
 console.log("Himani");
-console.log(user.name);
+console.log(userr.name);
